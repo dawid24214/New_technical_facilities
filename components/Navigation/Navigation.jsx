@@ -17,11 +17,11 @@ const IconX = ({ size = 18 }) => (
 );
 
 const NAV_ITEMS = [
-    { label: "Start", href: "#start", desc: "Wróć na stronę główną" },
-    { label: "O mnie", href: "#o-mnie", desc: "Poznaj mnie lepiej" },
-    { label: "Projekty", href: "#projekty", desc: "Moje realizacje" },
-    { label: "Cennik", href: "#cennik", desc: "Oferta i ceny" },
-    { label: "Kontakt", href: "#kontakt", desc: "Skontaktuj się ze mną" },
+    { label: "Strona Główna", href: "#start", desc: "Wróć na stronę główną" },
+    { label: "O Nas", href: "#o-mnie", desc: "Poznaj nas lepiej" },
+    { label: "Profile Wykonawców", href: "#projekty", desc: "Ich realizacje" },
+    /*{ label: "Cennik", href: "#cennik", desc: "Oferta i ceny" },*/
+    { label: "Kontakt", href: "#kontakt", desc: "Skontaktuj się z nami" },
 ];
 
 export const Navigation = () => {
@@ -146,7 +146,7 @@ export const Navigation = () => {
                         <a href="#start" className="brand">
                             <span className="brand-dot" />
                             <span className="brand-text">
-                GRO<span className="brand-accent">SZEK</span>
+                Find‑<span className="brand-accent">a‑DJ (Prototype)</span>
               </span>
                         </a>
 
