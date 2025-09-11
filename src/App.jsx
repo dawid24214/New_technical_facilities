@@ -1,17 +1,15 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React from "react";
+import {Navigation} from "../components/Navigation/Navigation.jsx";
+import {Layout} from "../components/Layout/Layout.jsx";
+/*import Footer from "../components/Footer/Footer.jsx";*/
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-        <p></p>
-
-    </>
-  )
+    return (
+        <>
+           {/* <Navigation />*/}
+            <Layout />
+            {/*<Footer />*/}
+        </>
+    );
 }
-
 export default App
